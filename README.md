@@ -17,6 +17,7 @@ Masih di file red_text_widget.dart, untuk menggunakan plugin auto_size_text, uba
 ![Alt text](image-4.png)
 Setelah Anda menambahkan kode di atas, Anda akan mendapatkan info error. Mengapa demikian? Jelaskan dalam laporan praktikum Anda!
 Penjelasan :
+Pesan kesalahan pada kode diatas adalah karena kode diatas menggunakan variabel text di dalam AutoSizeText tetapi variabel tersebut tidak dideklarasikan dalam lingkup metode build.
 - Langkah 5: Buat Variabel text dan parameter di constructor
 Tambahkan variabel text dan parameter di constructor seperti berikut.
 ![Alt text](image-5.png)
@@ -68,3 +69,4 @@ Penjelasan :
 . wrapWords: Mengatur apakah teks yang akan ditampilkan pada widget akan dibungkus atau tidak.
 . locale: Digunakan untuk memilih font ketika karakter Unicode yang sama dapat dirender secara berbeda, bergantung pada lokalnya.
 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub ke spreadsheet yang telah disediakan!
+https://github.com/mutiaradevita/flutter_plugin_pubdev
